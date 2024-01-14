@@ -11,7 +11,8 @@ public class Box<T extends Fruit>{
         return list.get(index);
     }
 
-    public static void printBox(Box<? extends Fruit> box){
-        System.out.println(box.toString());
+    public int size(){
+        return list.size();
     }
+
 }

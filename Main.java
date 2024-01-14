@@ -4,7 +4,10 @@ public class Main {
         Apple ap2 = new Apple();
         Orange or = new Orange();
 
-        Fruit.getFruitBox(ap1);
-        Fruit.printBox();
+        FruitBox.getFruitBox(ap1, or);
+        FruitBox.printBox();
+
+        FruitBox.getFruitBox(ap1, or, ap2);
+        FruitBox.printBox();
     }
 }
